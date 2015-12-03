@@ -37,7 +37,7 @@ public class BootCampTasks {
 	
 	public static int[] shrink(int[] arr){
 		int[] tmp = new int[arr.length / 2];
-		for (int i = 0; i < arr.length; ++i){
+		for (int i = 0; i < tmp.length; ++i){
 			tmp[i] = arr[i];
 		}
 		return tmp;
